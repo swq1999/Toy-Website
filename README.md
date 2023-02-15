@@ -22,6 +22,6 @@ In Year 1 Semester 2, we were asked to create a toy website (with no prior exper
 > **Final Grade:** 91/100
 
 ### Documents:
-* [Assignment Specifications.](/KF4009-Assignment-Specifications.docx)
+* [Assignment Specifications.](/KF4009AssignmentSpecifications.pdf)
 * [Wireframes](/data/Wireframes) created prior to the website development.
 
