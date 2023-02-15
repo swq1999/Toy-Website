@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Credits</title> 
+		<link href = "webpage.css" rel = "stylesheet" type = "text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	</head> 
+	<body class="gridContainer1"> 
+		<header>
+			<img class = "logo" src = "logo2.png" alt = "Northumbria Toys Company">
+		</header> 
+		<nav>
+			<div class="navbar">
+				<a href="homepage.html">Home</a>
+				<a href="viewtoys.php">View Toys</a>
+				<a href="admin.php">Admin</a>
+				<a class="active" href="credits.html">Credits</a>
+			</div>
+		</nav>
+		<main>
+			<section class = "credits">
+				<h2>Credits</h2>
+				<img class = "marioblock" src = "marioblock.gif" alt = "Mario Block">
+				
+				<h3>Student Details</h3>
+					<p>
+						Name: Syed W. Quadri<br>
+						Student ID: (REMOVED) <br>
+						Email: (REMOVED)
+					</p>
+					
+				<h3>Acknowledgements</h3>
+					<p>
+						The logo for the website was created using Adobe Illustrator.<br>
+						The following are references to the images used for this website:
+					</p>
+					<ul>
+						<li> 
+							Let's Get Out (2021) 'HAMLEYS TOY STORE | Walking Tour 2021 [4K]', 
+							YouTube, 31 August [Online]. Available at: 
+							<a href = "https://www.youtube.com/watch?v=mXy4jlx0guE">
+								https://www.youtube.com/watch?v=mXy4jlx0guE
+							</a>. [Accessed 11 April 2022].
+						</li>
+						<li>
+							HDQwalls. (2016) 'Mario Game', 13 January [Online] Available at: 
+							<a href = "https://hdqwalls.com/download/3840x2400/mario-game">
+								https://hdqwalls.com/download/3840x2400/mario-game
+							</a>. [Accessed 11 April 2022].
+						</li>
+						<li>
+							Forbidden Planet. (2022) 'Marvel: Avengers: Endgame: Marvel Legends 
+							Replica: Iron Man Nano Gauntlet.' [Online] Available at: 
+							<a href = "https://forbiddenplanet.com/329385-marvel-avengers-endgame-marvel-legends-replica-iron-man-nano-gauntlet/">
+								https://forbiddenplanet.com/329385-marvel-avengers-endgame-marvel-legends-replica-iron-man-nano-gauntlet/
+							</a>. [Accessed 27 April 2022].
+						</li>
+						<li>
+							Bret. (2019) '30th Anniversary Collection: Jawa & LIN Droid', 
+							Bantha Skull, 27 March [Online]. Available at: 
+							<a href = "https://www.banthaskull.com/photo_galleries/gallery/ph-30-19-jawa-lin-droid">
+								https://www.banthaskull.com/photo_galleries/gallery/ph-30-19-jawa-lin-droid
+							</a>. [Accessed 27 April 2022].
+						</li>
+						<li>
+							Tgamez. (2019) 'Mario Walking Sticker', Tenor, 29 May [Online] Available at: 
+							<a href = "https://tenor.com/view/mario-walking-cape-game-pixel-art-gif-14233253">
+								https://tenor.com/view/mario-walking-cape-game-pixel-art-gif-14233253
+							</a>. [Accessed 27 April 2022].
+						</li>
+						<li>
+							TheOweman. (2021) 'Coin Mario Sticker', Tenor, 13 May [Online] Available at: 
+							<a href = "https://tenor.com/view/coin-mario-pixel-art-gold-shiny-gif-21543783">
+								https://tenor.com/view/coin-mario-pixel-art-gold-shiny-gif-21543783
+							</a>. [Accessed 27 April 2022].
+						</li>
+						<li>
+							NH1507. (2020) 'Mario Block GIF', Tenor, 13 March [Online] Available at: 
+							<a href = "https://tenor.com/view/mario-block-lucky-block-pixel-smb-gif-16569725">
+								https://tenor.com/view/mario-block-lucky-block-pixel-smb-gif-16569725
+							</a>. [Accessed 27 April 2022].
+						</li>
+						
+						
+					</ul>
+				
+				<h3>Security Considerations</h3>
+					<h4>For the Company:-</h4>
+					
+					<h5>1. Admin page should not be accessible to all users:</h5>
+					<p>
+						- Only selected administrators should be able to access the admin page. This is to avoid and prevent potential
+						breach into the system database from external attackers. This could be done using a username and password login 
+						to grant necessary permissions to make changes to the database.
+					</p>
+					
+					<h5>2. Avoid storing plaintext passwords in databases:</h5>
+					<p>
+						- If the database on the system is compromised, all the passwords
+						are immediately visible and can easily be associated with its respective users.
+						<br>
+						- Internal malfeasors (people who work for the organization) can abuse these passwords
+						by using them to access personal user information such as credit card or 
+						bank account details.
+						<br>
+						- Instead, store salted hashed passwords. (Salted hashed passwords: Before going through the password 
+						hashing function, random characters are added to the password which gives out a different output every 
+						time, making it more difficult for hackers to crack it.)
+					</p>
+					
+					<h4>For the Users:-</h4>
+					
+					<h5>1. Avoid reusing same/similar passwords:</h5>
+					<p>
+						- If the user has been compromised on one system, the attacker might use the same 
+						password on other platforms, resulting in multiple account breaches.
+					</p>
+			</section>
+		</main>
+		<footer>	
+			<h4>Contact us:</h4>
+			<p>
+				Email: toycompany@northumbria.ac.uk <br>
+				Phone: +44123456789 <br>
+				Working Days/Hours: Mon - Fri / 10:00AM - 5:00PM
+			</p>	
+			<p>&copy; 2022 Northumbria Toy Company. All Rights Reserved.</p>
+		</footer>
+	</body> 
+</html>
